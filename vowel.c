@@ -1,10 +1,11 @@
 #include<stdio.h>
 int main()
 {
-char a;
-scanf("%c",&a);
+char y;
+scanf("%c",&y);
 if(a=='a'||a=='e'||a=='i'||a=='o'||a=='u')
-   {printf("vowel");}
+   {printf("vowel");
+   }
 else
 printf("consonant");
 }
